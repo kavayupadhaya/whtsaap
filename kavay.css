@@ -1,0 +1,110 @@
+body{
+  margin:0px;
+}
+
+a{
+   text-decoration: none;
+}
+ul{
+list-style-type:none
+}
+.div1{
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 20px;
+  
+
+}
+li.flex-intro{
+  margin-left:20px;
+  padding-right: 20px;
+}
+.flex-container{
+  display:flex;
+  justify-content: space-between;
+  background-color: green;
+}
+.flex-item1{
+  align-self: flex-start;
+}
+
+.flex-item2{
+  align-self: flex-end;
+}
+.flex-containerA{
+  display: flex;
+  justify-content: space-around;
+}
+.flex-item3{
+  align-self: flex-start;
+}
+.flex-item4{
+  align-self: flex-end;
+}
+.flex-containerB{
+  display: flex;
+  justify-content: space-around;
+}
+.flex-item5{
+  align-self: flex-start;
+  background-color: skyblue;
+
+
+}
+.flex-item6{
+  align-self: flex-end;
+  background-color: pink;
+  padding: 10px;
+}
+.flex-container-ul-bottom{
+  display: flex;
+  justify-content: space-between;
+  background-color: 	#00FA9A;
+  padding-top: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+
+
+
+}
+.flex-item first-colum{
+
+}
+.flex-item second-colum{
+
+}
+.flex-item third-colum{
+
+}
+.flex-item fourth-colum{
+
+}
+h3{
+  text-align: center;
+  color: green;
+}
+p.intro{
+  padding-left:200px;
+
+}
+h2.intro{
+  padding-left: 200px;
+  font-size: 30px;
+}
+.intro{
+  padding: 0px;
+}
+
+.intro1{
+  padding-left: 0px;
+}
+h3{
+
+ border: 1px solid green;
+ border-bottom-left-radius: 2em;
+ border-bottom-right-radius:  2em;
+ border-top-left-radius: 2em;
+ border-top-right-radius: 2em;
+ width:250px;
+ padding: 20px;
+}
