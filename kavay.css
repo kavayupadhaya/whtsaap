@@ -4,28 +4,44 @@ body{
 
 a{
    text-decoration: none;
+   font-size: 15px;
+    line-height: 20px;
+    letter-spacing: 0.02em;
+    font-weight: 500;
+    list-style: none;
+    white-space: nowrap;
+    font-family: ubuntu;
+    font-style: normal;
 }
 ul{
-list-style-type:none
+list-style-type:none;
 }
 .div1{
   display: flex;
   justify-content: flex-end;
-  padding-right: 20px;
-  
+  padding-right: 70px;
+
 
 }
 li.flex-intro{
-  margin-left:20px;
-  padding-right: 20px;
+  margin-left:40px;
+
 }
 .flex-container{
   display:flex;
-  justify-content: space-between;
-  background-color: green;
+  justify-content: space-around;
+  background-color: #1ebea5;
+  position: fixed;
+  padding-top: 20px;
+  top:0px;
+  right:0px;
+  left:0px;
+
 }
 .flex-item1{
   align-self: flex-start;
+  padding-left:125;
+  padding-top:10;
 }
 
 .flex-item2{
@@ -34,37 +50,48 @@ li.flex-intro{
 .flex-containerA{
   display: flex;
   justify-content: space-around;
+  padding-left: 250px;
+  padding-right: 250px;
 }
 .flex-item3{
   align-self: flex-start;
+
 }
 .flex-item4{
   align-self: flex-end;
 }
 .flex-containerB{
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+
+
 }
 .flex-item5{
+
   align-self: flex-start;
   background-color: skyblue;
-
-
+  font-size: 13px;
+  padding-left: 50px;
+  padding-right: 50px;
+  
 }
 .flex-item6{
   align-self: flex-end;
-  background-color: pink;
-  padding: 10px;
+  background-color: #D0E9EA;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top:15px;
+  font-size: 13px;
+  padding-bottom: 10px;
+
 }
 .flex-container-ul-bottom{
   display: flex;
   justify-content: space-between;
-  background-color: 	#00FA9A;
-  padding-top: 20px;
-  padding-left: 50px;
-  padding-right: 50px;
-
-
+  background-color:#273443;
+  padding-top: 50px;
+  padding-left: 120px;
+  padding-right: 250px;
 
 }
 .flex-item first-colum{
@@ -81,7 +108,7 @@ li.flex-intro{
 }
 h3{
   text-align: center;
-  color: green;
+  color: #1cb39b;
 }
 p.intro{
   padding-left:200px;
@@ -90,6 +117,7 @@ p.intro{
 h2.intro{
   padding-left: 200px;
   font-size: 30px;
+
 }
 .intro{
   padding: 0px;
@@ -99,12 +127,95 @@ h2.intro{
   padding-left: 0px;
 }
 h3{
-
- border: 1px solid green;
+ border: 1px solid #77D7C8;
  border-bottom-left-radius: 2em;
  border-bottom-right-radius:  2em;
  border-top-left-radius: 2em;
  border-top-right-radius: 2em;
  width:250px;
  padding: 20px;
+ font-family: ubuntu;
+ font-style: normal;
+ font-size: 16px;
+ line-height: 20px;
+ letter-spacing: 0.071em;
+}
+
+
+a.class1{
+  color:#1cb39b;
+  line:440px;
+  font-style: normal;
+  font-family: ubuntu;
+}
+a{
+  color:white;
+}
+p1{
+  color:rgba(255,255,255,0.6);
+  font-family: ubuntu;
+  font-style: normal;
+}
+img.bottom{
+  vertical-align: text-top;
+
+}
+li{
+  margin:10px;
+
+}
+.flex-container20{
+  background-color: #232f3c;
+  display: flex;
+
+}
+.flex-itemA{
+  padding-left: 100px;
+  margin: 30px;
+  color: rgba(255,255,255,0.6);
+  font-family: ubuntu;
+  font-style: normal;
+
+}
+.flex-itemB{
+  padding-left: 125px;
+  margin: 30px;
+  color: #fff;
+  font-family: ubuntu;
+  font-style: normal;
+}
+p8{
+  font-family: ubuntu;
+  font-style: normal;
+  opacity: .3;
+}
+p7{
+    font-family: ubuntu;
+    font-style: normal;
+    line-height: 26px;
+    opacity: .78;
+    margin-bottom: 12px;
+}
+h2{
+  font-family: ubuntu;
+  font-style: normal;
+  font-size: 24px;
+    font-weight: 300;
+    line-height: 29px;
+
+
+}
+p{
+  font-family: ubuntu;
+  font-style: normal;
+  font-size: 14px;
+    line-height: 21px;
+  }
+p.class2{
+  font-size: 15px;
+    line-height: 20px;
+    font-weight: 500;
+    font-family: ubuntu;
+    font-style: normal;
+    color: rgba(0,0,0,0.5);
 }
