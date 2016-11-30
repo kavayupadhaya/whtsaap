@@ -2,6 +2,7 @@ body{
   margin:0px;
 }
 
+
 a{
    text-decoration: none;
    font-size: 15px;
@@ -13,6 +14,13 @@ a{
     font-family: ubuntu;
     font-style: normal;
 }
+h1{
+  font-family: ubuntu;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 35px;
+  font-weight: 300;
+}
 ul{
 list-style-type:none;
 }
@@ -23,7 +31,7 @@ list-style-type:none;
 
 
 }
-li.flex-intro{
+.flex-intro{
   margin-left:40px;
 
 }
@@ -69,20 +77,21 @@ li.flex-intro{
 .flex-item5{
 
   align-self: flex-start;
-  background-color: skyblue;
+  background-color: #D0E9EA;
   font-size: 13px;
   padding-left: 50px;
   padding-right: 50px;
-  
+  margin right:50px;
 }
 .flex-item6{
   align-self: flex-end;
-  background-color: #D0E9EA;
-  padding-left: 100px;
-  padding-right: 100px;
-  padding-top:15px;
-  font-size: 13px;
-  padding-bottom: 10px;
+  background-color: #EDF8F5;
+  padding-left: 70px;
+  padding-right: 70px;
+  padding-top: 50px;
+
+
+
 
 }
 .flex-container-ul-bottom{
@@ -110,13 +119,10 @@ h3{
   text-align: center;
   color: #1cb39b;
 }
-p.intro{
-  padding-left:200px;
+.in{
+  padding-left:2px;
 
 }
-h2.intro{
-  padding-left: 200px;
-  font-size: 30px;
 
 }
 .intro{
@@ -139,10 +145,14 @@ h3{
  font-size: 16px;
  line-height: 20px;
  letter-spacing: 0.071em;
+ margin-left: 500px;
+}
+.class11{
+  margin-left: 140px;
 }
 
 
-a.class1{
+.class1{
   color:#1cb39b;
   line:440px;
   font-style: normal;
@@ -151,12 +161,12 @@ a.class1{
 a{
   color:white;
 }
-p1{
+B{
   color:rgba(255,255,255,0.6);
   font-family: ubuntu;
   font-style: normal;
 }
-img.bottom{
+.bottom{
   vertical-align: text-top;
 
 }
@@ -184,38 +194,49 @@ li{
   font-family: ubuntu;
   font-style: normal;
 }
-p8{
+.class12{
   font-family: ubuntu;
   font-style: normal;
-  opacity: .3;
+  color: #b6b6b6;
+  font-size = 2;
 }
-p7{
+.class13{
     font-family: ubuntu;
     font-style: normal;
     line-height: 26px;
-    opacity: .78;
+    color: #3B3737;
     margin-bottom: 12px;
 }
 h2{
   font-family: ubuntu;
   font-style: normal;
-  font-size: 24px;
+  font-size: 26px;
     font-weight: 300;
     line-height: 29px;
+    margin-left: 160px;
+  }
 
-
-}
 p{
   font-family: ubuntu;
   font-style: normal;
   font-size: 14px;
     line-height: 21px;
   }
-p.class2{
-  font-size: 15px;
+.class2{
+  font-size: 11.5px;
     line-height: 20px;
     font-weight: 500;
     font-family: ubuntu;
     font-style: normal;
     color: rgba(0,0,0,0.5);
+    margin-left: 140px;
+}
+.class3{
+  font-size: 11.5px;
+    line-height: 20px;
+    font-weight: 500;
+    font-family: ubuntu;
+    font-style: normal;
+    color: rgba(0,0,0,0.5);
+    margin-left: 185px;
 }
